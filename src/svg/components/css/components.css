@@ -1,0 +1,16 @@
+.xflex-angle {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.xflex-datepicker-close-icon {
+    fill: #c6c6c6;
+}
+
+.xflex-datepicker-close-icon:hover {
+    fill: #9a9a9a;
+}
