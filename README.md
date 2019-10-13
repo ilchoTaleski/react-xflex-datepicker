@@ -1,6 +1,6 @@
 # React XFLEX Date Picker
 
-A very simple react datepicker component which include range picker
+A very simple react datepicker component which includes range picker
 
 ## Installation
 
