@@ -20,25 +20,25 @@ yarn add react-xflex-datepicker
 
 1. Datepicker component for choosing only one date:
 
-```
-import { XFlexDatepicker } from 'react-xflex-datepicker'
+```javascript
+import { XFlexDatepicker } from 'react-xflex-datepicker';
 ```
 
 2. Daterange picker component:
 
-```
-import { XFlexDatepickerRange } from 'react-xflex-datepicker'
+```javascript
+import { XFlexDatepickerRange } from 'react-xflex-datepicker';
 ```
 
 Then you can use it in your code:
 
-```
+```javascript
 <XFlexDatepicker />
 ```
 
 or
 
-```
+```javascript
 <XFlexDatepickerRange />
 ```
 
@@ -68,13 +68,13 @@ Range datepicker has the same above options as the datepicker and a few more:
 
 ## Events
 
-| Event          | Arguments           | Description                                                                                                                                                                                                                                                                                    |
-| :------------- | :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| onChooseDate   | date: Moment object | Fired when clicked on a date. On datepicker it fires with `{date: Moment}` and on range picker with `{start: Moment, end: Moment | null`. The end date is null if the event is fired when selecting the start date.                                                                            |
-| onClearDate    | date: Moment object | Fired when cleared a date from the input control. On datepicker it fires with `{date: Moment}` and on range picker with `{start: Moment, end: Moment | null`. The object tells which dates have been cleared. The end date is null if the event is fired when only the start date is selected. |
-| onCalendarShow | none                | Fired when the calendar is shown. Only when inputControl is false                                                                                                                                                                                                                              |
-| onCalendarHide | none                | Fired when the calendar is hidden. Only when inputControl is false                                                                                                                                                                                                                             |
-| onMonthDayOver | date: Moment object | Fired when mouseover on a date. The argument is a Moment object which represents the date that has been hovered.                                                                                                                                                                               |
+| Event          | Arguments           | Description                                                                                                                                                                                                                                                                                     |
+| :------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| onChooseDate   | date: Moment object | Fired when clicked on a date. On datepicker it fires with `{date: Moment}` and on range picker with `{start: Moment, end: Moment \| null`. The end date is null if the event is fired when selecting the start date.                                                                            |
+| onClearDate    | date: Moment object | Fired when cleared a date from the input control. On datepicker it fires with `{date: Moment}` and on range picker with `{start: Moment, end: Moment \| null`. The object tells which dates have been cleared. The end date is null if the event is fired when only the start date is selected. |
+| onCalendarShow | none                | Fired when the calendar is shown. Only when inputControl is false                                                                                                                                                                                                                               |
+| onCalendarHide | none                | Fired when the calendar is hidden. Only when inputControl is false                                                                                                                                                                                                                              |
+| onMonthDayOver | date: Moment object | Fired when mouseover on a date. The argument is a Moment object which represents the date that has been hovered.                                                                                                                                                                                |
 
 ## License
 
