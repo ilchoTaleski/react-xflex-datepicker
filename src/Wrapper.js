@@ -49,6 +49,7 @@ const Wrapper = props => {
     setPlaceholder(placeholder);
 
     setStartDate(initialDate);
+    setSelectedDate(initialDate);
     let daysShort = moment.weekdaysShort();
     let first = daysShort.shift();
     daysShort.push(first);
