@@ -68,7 +68,7 @@ const Wrapper = props => {
     setPlaceholder(placeholder);
     setHasTooltip(hasTooltip);
 
-    setStartDate(initialDate);
+    setStartDate(moment());
     setSelectedDate(initialDate);
     setEndDate(initialDate);
     let daysShort = moment.weekdaysShort();
