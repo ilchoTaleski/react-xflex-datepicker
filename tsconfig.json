@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "react",
+        "typeRoots": ["node_modules/@types", "src/types"],
+        "outDir": "./dist",
+        "declaration": true,
+        "allowJs": true,
+        "lib": ["es2016", "dom"]
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/services/generator.js"],
+    "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,460 @@
+.xflex {
+    display: flex;
+}
+
+.xflex-column {
+    flex-direction: column;
+}
+
+.xflex-justify-content-center {
+    justify-content: center;
+}
+
+.xflex-justify-content-around {
+    justify-content: space-around;
+}
+
+.xflex-justify-content-between {
+    justify-content: space-between;
+}
+
+.xflex-align-items-center {
+    align-items: center;
+}
+
+.xflex-m-0 {
+    margin: 0 !important;
+}
+
+.xflex-mt-0,
+.xflex-my-0 {
+    margin-top: 0 !important;
+}
+
+.xflex-mr-0,
+.xflex-mx-0 {
+    margin-right: 0 !important;
+}
+
+.xflex-mb-0,
+.xflex-my-0 {
+    margin-bottom: 0 !important;
+}
+
+.xflex-ml-0,
+.xflex-mx-0 {
+    margin-left: 0 !important;
+}
+
+.xflex-m-1 {
+    margin: 0.25rem !important;
+}
+
+.xflex-mt-1,
+.xflex-my-1 {
+    margin-top: 0.25rem !important;
+}
+
+.xflex-mr-1,
+.xflex-mx-1 {
+    margin-right: 0.25rem !important;
+}
+
+.xflex-mb-1,
+.xflex-my-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.xflex-ml-1,
+.xflex-mx-1 {
+    margin-left: 0.25rem !important;
+}
+
+.xflex-m-2 {
+    margin: 0.5rem !important;
+}
+
+.xflex-mt-2,
+.xflex-my-2 {
+    margin-top: 0.5rem !important;
+}
+
+.xflex-mr-2,
+.xflex-mx-2 {
+    margin-right: 0.5rem !important;
+}
+
+.xflex-mb-2,
+.xflex-my-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.xflex-ml-2,
+.xflex-mx-2 {
+    margin-left: 0.5rem !important;
+}
+
+.xflex-m-3 {
+    margin: 1rem !important;
+}
+
+.xflex-mt-3,
+.xflex-my-3 {
+    margin-top: 1rem !important;
+}
+
+.xflex-mr-3,
+.xflex-mx-3 {
+    margin-right: 1rem !important;
+}
+
+.xflex-mb-3,
+.xflex-my-3 {
+    margin-bottom: 1rem !important;
+}
+
+.xflex-ml-3,
+.xflex-mx-3 {
+    margin-left: 1rem !important;
+}
+
+.xflex-m-4 {
+    margin: 1.5rem !important;
+}
+
+.xflex-mt-4,
+.xflex-my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.xflex-mr-4,
+.xflex-mx-4 {
+    margin-right: 1.5rem !important;
+}
+
+.xflex-mb-4,
+.xflex-my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.xflex-ml-4,
+.xflex-mx-4 {
+    margin-left: 1.5rem !important;
+}
+
+.xflex-m-5 {
+    margin: 3rem !important;
+}
+
+.xflex-mt-5,
+.xflex-my-5 {
+    margin-top: 3rem !important;
+}
+
+.xflex-mr-5,
+.xflex-mx-5 {
+    margin-right: 3rem !important;
+}
+
+.xflex-mb-5,
+.xflex-my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.xflex-ml-5,
+.xflex-mx-5 {
+    margin-left: 3rem !important;
+}
+
+.xflex-p-0 {
+    padding: 0 !important;
+}
+
+.xflex-pt-0,
+.xflex-py-0 {
+    padding-top: 0 !important;
+}
+
+.xflex-pr-0,
+.xflex-px-0 {
+    padding-right: 0 !important;
+}
+
+.xflex-pb-0,
+.xflex-py-0 {
+    padding-bottom: 0 !important;
+}
+
+.xflex-pl-0,
+.xflex-px-0 {
+    padding-left: 0 !important;
+}
+
+.xflex-p-1 {
+    padding: 0.25rem !important;
+}
+
+.xflex-pt-1,
+.xflex-py-1 {
+    padding-top: 0.25rem !important;
+}
+
+.xflex-pr-1,
+.xflex-px-1 {
+    padding-right: 0.25rem !important;
+}
+
+.xflex-pb-1,
+.xflex-py-1 {
+    padding-bottom: 0.25rem !important;
+}
+
+.xflex-pl-1,
+.xflex-px-1 {
+    padding-left: 0.25rem !important;
+}
+
+.xflex-p-2 {
+    padding: 0.5rem !important;
+}
+
+.xflex-pt-2,
+.xflex-py-2 {
+    padding-top: 0.5rem !important;
+}
+
+.xflex-pr-2,
+.xflex-px-2 {
+    padding-right: 0.5rem !important;
+}
+
+.xflex-pb-2,
+.xflex-py-2 {
+    padding-bottom: 0.5rem !important;
+}
+
+.xflex-pl-2,
+.xflex-px-2 {
+    padding-left: 0.5rem !important;
+}
+
+.xflex-p-3 {
+    padding: 1rem !important;
+}
+
+.xflex-pt-3,
+.xflex-py-3 {
+    padding-top: 1rem !important;
+}
+
+.xflex-pr-3,
+.xflex-px-3 {
+    padding-right: 1rem !important;
+}
+
+.xflex-pb-3,
+.xflex-py-3 {
+    padding-bottom: 1rem !important;
+}
+
+.xflex-pl-3,
+.xflex-px-3 {
+    padding-left: 1rem !important;
+}
+
+.xflex-p-4 {
+    padding: 1.5rem !important;
+}
+
+.xflex-pt-4,
+.xflex-py-4 {
+    padding-top: 1.5rem !important;
+}
+
+.xflex-pr-4,
+.xflex-px-4 {
+    padding-right: 1.5rem !important;
+}
+
+.xflex-pb-4,
+.xflex-py-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.xflex-pl-4,
+.xflex-px-4 {
+    padding-left: 1.5rem !important;
+}
+
+.xflex-p-5 {
+    padding: 3rem !important;
+}
+
+.xflex-pt-5,
+.xflex-py-5 {
+    padding-top: 3rem !important;
+}
+
+.xflex-pr-5,
+.xflex-px-5 {
+    padding-right: 3rem !important;
+}
+
+.xflex-pb-5,
+.xflex-py-5 {
+    padding-bottom: 3rem !important;
+}
+
+.xflex-pl-5,
+.xflex-px-5 {
+    padding-left: 3rem !important;
+}
+
+.xflex-datepicker-control {
+    border: 1px solid #d7d9e2;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+    outline: none !important;
+}
+
+.xflex-datepicker-control-range {
+    border: 1px solid #d7d9e2;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+    outline: none !important;
+}
+
+.xflex-datepicker-control-wrapper {
+    position: relative;
+}
+
+.xflex-datepicker-monthbox-wrapper {
+    position: absolute;
+    left: 0;
+}
+
+.xflex-angle {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.xflex-datepicker-close-icon {
+    fill: #c6c6c6;
+}
+
+.xflex-datepicker-close-icon:hover {
+    fill: #9a9a9a;
+}
+
+.xflex-datepicker-month {
+    width: 380px;
+    background-color: white;
+}
+
+.xflex-datepicker-month-header {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    text-align: center;
+    /* background-color: #2db0c3; */
+    background-color: #f07474;
+    color: white;
+}
+
+.xflex-datepicker-left-angle {
+    flex: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1.5);
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: transparent;
+    color: white;
+    outline: none !important;
+}
+
+.xflex-datepicker-month-header-title {
+    flex: 9;
+}
+
+.xflex-datepicker-right-angle {
+    flex: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1.5);
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: transparent;
+    color: white;
+    outline: none !important;
+}
+
+.xflex-datepicker-weeks {
+    border: 1px solid #efefef;
+    padding: 5px;
+}
+
+.xflex-datepicker-weeks-label {
+    font-size: 12px;
+    color: #999;
+    flex: 1;
+}
+
+.xflex-datepicker-weeks-label-square {
+    border-bottom: 1px solid #efefef;
+    flex: 1 1 30px;
+}
+
+.xflex-datepicker-dates-column {
+    margin-top: 15px;
+}
+
+.xflex-datepicker-dates-label {
+    font-size: 12px;
+    flex: 1;
+}
+
+.xflex-datepicker-dates-label.--other-month {
+    opacity: 0.3;
+}
+
+.xflex-datepicker-dates-square {
+    height: 50px;
+    width: 50px;
+    flex: 1 1 40px;
+    margin-top: 2px;
+}
+
+.xflex-datepicker-dates-square.--selected:not(.--other-month) {
+    background-color: #e51d35;
+    color: white;
+}
+
+.xflex-datepicker-dates-square.--in-range:not(.--other-month) {
+    background-color: #e51d35;
+    color: white;
+}
+
+.xflex-datepicker-dates-square:not(.--other-month):not(.--selected):hover {
+    background-color: #f6b5bd;
+    color: white;
+}
+
+.xflex-datepicker-dates-square:not(.--other-month) {
+    cursor: pointer;
+}
+
+.xflex-datepicker-weeks-day-column {
+    flex: calc(1 / 7);
+}
+
+.__react_component_tooltip.show {
+    opacity: 1 !important;
+}
