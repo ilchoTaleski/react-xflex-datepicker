@@ -45,6 +45,8 @@ or
 <XFlexDatepickerRange />
 ```
 
+- Styles need to be imported separately.
+
 ## Options
 
 ### Datepicker
