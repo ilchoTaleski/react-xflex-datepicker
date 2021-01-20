@@ -2,6 +2,8 @@
 
 A very simple react datepicker component which includes range picker
 
+![](https://media.giphy.com/media/MAF3nXeiLBkN7EPAgp/giphy.gif)
+
 ## Installation
 
 The package can be installed via NPM:
