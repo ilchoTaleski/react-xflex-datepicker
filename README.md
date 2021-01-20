@@ -45,31 +45,35 @@ or
 <XFlexDatepickerRange />
 ```
 
-- Styles need to be imported separately.
+#### Styles need to be imported separately.
+```javascript
+import 'react-xflex-datepicker/dist/xflex-datepicker.css'
+```
 
 ## Options
 
 ### Datepicker
 
-[moment](https://momentjs.com/) is required for some od the options
+[moment](https://momentjs.com/) is required for some of the options
 
-| Option       | Type    | Values                                                                                                        | Default                 | Reactive | Description                                                                                                                                |
-| :----------- | :------ | :------------------------------------------------------------------------------------------------------------ | :---------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| initialDate  | Moment  | moment dates, null                                                                                            | moment() (Current date) | No       | This is the initial date set on the calendar on mount.                                                                                     |
-| position     | String  | top, bottom                                                                                                   | bottom                  | Yes      | It tells where the calendar will be positioned regarding the input control. This property has no effect when inputControl is set to false. |
-| inputControl | Boolean | true, false                                                                                                   | true                    | No       | When is set to false, the calendar will be visible all the time, otherwise it will be opened by a button.                                  |
-| placeholder  | String  | any                                                                                                           | Choose date...          | Yes      | This is the placeholder on the input control when no date is selected. It has no effect when inputControl is set to false.                 |
-| format       | String  | moment formats (see [momentjs webpage](https://momentjs.com/docs/#/displaying/format/) for available formats) | YYYY, MMMM DD           | Yes      | The format in which the dates will be shown on the input control. Has no effect when inputControl is set to false.                         |
-| locale       | String  | moment locale                                                                                                 | en                      | Yes      | The locale of the calendar. This does not affect the placeholder                                                                           |
+| Option       | Type    | Values                                                                                                        | Default                 |  Description                                                                                                                                |
+| :----------- | :------ | :------------------------------------------------------------------------------------------------------------ | :---------------------- |  :----------------------------------------------------------------------------------------------------------------------------------------- |
+| initialDate  | Moment  | moment dates, null                                                                                            | moment() (Current date) |  This is the initial date set on the calendar on mount.                                                                                     |
+| position     | String  | top, bottom                                                                                                   | bottom                  |  It tells where the calendar will be positioned regarding the input control. This property has no effect when inputControl is set to false. |
+| inputControl | Boolean | true, false                                                                                                   | true                    |  When is set to false, the calendar will be visible all the time, otherwise it will be opened by a button.                                  |
+| placeholder  | String  | any                                                                                                           | Choose date...          |  This is the placeholder on the input control when no date is selected. It has no effect when inputControl is set to false.                 |
+String  | moment formats (see [momentjs webpage](https://momentjs.com/docs/#/displaying/format/) for available formats) | YYYY, MMMM DD           | The format in which the dates will be shown on the input control. Has no effect when inputControl is set to false.                         |
+| locale       | String  | moment locale                                                                                                 | en                      |  The locale of the calendar. This does not affect the placeholder                                                                           |
+| buttonControlClassName  | String  | any className                                                                                            | '' |  This is optional className for the button control for custom styling.                                                                                     |
 
 ### Datepicker Range
 
 Range datepicker has the same above options as the datepicker and a few more:
 
-| Option       | Type     | Values      | Default                                       | Reactive | Description                                                                                                                     |
-| :----------- | :------- | :---------- | :-------------------------------------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| hasTooltip   | Boolean  | true, false | true                                          | Yes      | Whether or not to have an info tooltip on day mouseover                                                                         |
-| tooltipLabel | Function | functions   | `(numberOfNights) => {return numberOfNights}` | No       | Provided this function, you can set a custom label for the day tooltip. It receives number of nights between the days selected. |
+| Option       | Type     | Values      | Default                                       | Description                                                                                                                     |
+| :----------- | :------- | :---------- | :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
+| hasTooltip   | Boolean  | true, false | true                                          | Whether or not to have an info tooltip on day mouseover                                                                         |
+| tooltipLabel | Function | functions   | `(numberOfNights) => {return numberOfNights}` | Provided this function, you can set a custom label for the day tooltip. It receives number of nights between the days selected. |
 
 ## Events
 
