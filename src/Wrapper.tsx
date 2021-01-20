@@ -27,6 +27,7 @@ const Wrapper = ({ onCalendarHide, onCalendarShow, onChooseDate, onClearDate, on
 
     useEffect(() => {
         if (onChooseDate && startDate) onChooseDate({ date: startDate });
+        if (startDate) hideCalendar();
     }, [startDate]);
 
     const showCalendar = () => {

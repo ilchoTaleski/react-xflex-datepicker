@@ -77,6 +77,8 @@ var Wrapper = function (_a) {
     react_1.useEffect(function () {
         if (onChooseDate && startDate)
             onChooseDate({ date: startDate });
+        if (startDate)
+            hideCalendar();
     }, [startDate]);
     var showCalendar = function () {
         viewIntoStartDate();
