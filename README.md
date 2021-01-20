@@ -3,6 +3,7 @@
 A very simple react datepicker component which includes range picker
 
 ![](https://media.giphy.com/media/MAF3nXeiLBkN7EPAgp/giphy.gif)
+![](https://media.giphy.com/media/m27TrN3bqlAn4xGk3L/giphy.gif)
 
 ## Installation
 
