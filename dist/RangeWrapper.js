@@ -140,7 +140,7 @@ var Wrapper = function (_a) {
     else
         return (react_1.default.createElement("div", null,
             react_1.default.createElement("div", { className: "xflex-datepicker-control-wrapper" },
-                react_1.default.createElement("button", { className: "xflex xflex-justify-content-between xflex-datepicker-control-range " + buttonControlClassName, onClick: showCalendar },
+                react_1.default.createElement("button", { className: "xflex xflex-justify-content-between xflex-datepicker-control-range " + buttonControlClassName, onClick: showCalendar, type: "button" },
                     (!startDate && react_1.default.createElement("span", null, placeholder)) || (react_1.default.createElement("div", null,
                         react_1.default.createElement("span", null, startDate.format(format)),
                         react_1.default.createElement("span", { style: { padding: '0 10px' } },

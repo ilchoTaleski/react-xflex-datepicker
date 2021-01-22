@@ -74,6 +74,7 @@ const Wrapper = ({ onCalendarHide, onCalendarShow, onChooseDate, onClearDate, on
                     <button
                         className={`xflex xflex-justify-content-between xflex-datepicker-control ${buttonControlClassName}`}
                         onClick={showCalendar}
+                        type="button"
                     >
                         {(!startDate && <span>{placeholder}</span>) || <span>{startDate.format(format)}</span>}
                         {startDate && (

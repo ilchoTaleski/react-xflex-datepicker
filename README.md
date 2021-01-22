@@ -1,6 +1,6 @@
 # React XFLEX Date Picker
 
-A very simple react datepicker component which includes range picker
+A very simple react datepicker component which includes range picker. Now supports server side rendering.
 
 ![](https://media.giphy.com/media/MAF3nXeiLBkN7EPAgp/giphy.gif)
 ![](https://media.giphy.com/media/m27TrN3bqlAn4xGk3L/giphy.gif)
@@ -46,8 +46,9 @@ or
 ```
 
 #### Styles need to be imported separately.
+
 ```javascript
-import 'react-xflex-datepicker/dist/xflex-datepicker.css'
+import 'react-xflex-datepicker/dist/xflex-datepicker.css';
 ```
 
 ## Options
@@ -56,15 +57,15 @@ import 'react-xflex-datepicker/dist/xflex-datepicker.css'
 
 [moment](https://momentjs.com/) is required for some of the options
 
-| Option       | Type    | Values                                                                                                        | Default                 |  Description                                                                                                                                |
-| :----------- | :------ | :------------------------------------------------------------------------------------------------------------ | :---------------------- |  :----------------------------------------------------------------------------------------------------------------------------------------- |
-| initialDate  | Moment  | moment dates, null                                                                                            | moment() (Current date) |  This is the initial date set on the calendar on mount.                                                                                     |
-| position     | String  | top, bottom                                                                                                   | bottom                  |  It tells where the calendar will be positioned regarding the input control. This property has no effect when inputControl is set to false. |
-| inputControl | Boolean | true, false                                                                                                   | true                    |  When is set to false, the calendar will be visible all the time, otherwise it will be opened by a button.                                  |
-| placeholder  | String  | any                                                                                                           | Choose date...          |  This is the placeholder on the input control when no date is selected. It has no effect when inputControl is set to false.                 |
-String  | moment formats (see [momentjs webpage](https://momentjs.com/docs/#/displaying/format/) for available formats) | YYYY, MMMM DD           | The format in which the dates will be shown on the input control. Has no effect when inputControl is set to false.                         |
-| locale       | String  | moment locale                                                                                                 | en                      |  The locale of the calendar. This does not affect the placeholder                                                                           |
-| buttonControlClassName  | String  | any className                                                                                            | '' |  This is optional className for the button control for custom styling.                                                                                     |
+| Option                 | Type                                                                                                          | Values             | Default                                                                                                            | Description                                                                                                                                |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------ | :----------------- | :----------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| initialDate            | Moment                                                                                                        | moment dates, null | moment() (Current date)                                                                                            | This is the initial date set on the calendar on mount.                                                                                     |
+| position               | String                                                                                                        | top, bottom        | bottom                                                                                                             | It tells where the calendar will be positioned regarding the input control. This property has no effect when inputControl is set to false. |
+| inputControl           | Boolean                                                                                                       | true, false        | true                                                                                                               | When is set to false, the calendar will be visible all the time, otherwise it will be opened by a button.                                  |
+| placeholder            | String                                                                                                        | any                | Choose date...                                                                                                     | This is the placeholder on the input control when no date is selected. It has no effect when inputControl is set to false.                 |
+| String                 | moment formats (see [momentjs webpage](https://momentjs.com/docs/#/displaying/format/) for available formats) | YYYY, MMMM DD      | The format in which the dates will be shown on the input control. Has no effect when inputControl is set to false. |
+| locale                 | String                                                                                                        | moment locale      | en                                                                                                                 | The locale of the calendar. This does not affect the placeholder                                                                           |
+| buttonControlClassName | String                                                                                                        | any className      | ''                                                                                                                 | This is optional className for the button control for custom styling.                                                                      |
 
 ### Datepicker Range
 

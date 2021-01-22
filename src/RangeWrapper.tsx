@@ -121,7 +121,11 @@ const Wrapper = ({
         return (
             <div>
                 <div className="xflex-datepicker-control-wrapper">
-                    <button className={`xflex xflex-justify-content-between xflex-datepicker-control-range ${buttonControlClassName}`} onClick={showCalendar}>
+                    <button
+                        className={`xflex xflex-justify-content-between xflex-datepicker-control-range ${buttonControlClassName}`}
+                        onClick={showCalendar}
+                        type="button"
+                    >
                         {(!startDate && <span>{placeholder}</span>) || (
                             <div>
                                 <span>{startDate.format(format)}</span>
