@@ -36,18 +36,20 @@ export const CalendarProvider = ({
     let first = daysShort.shift();
     daysShort.push(first);
 
-    let weeks = getWeeks(initialDate.month(), initialDate.year());
-    const [m, y] = getNextMonthYear(initialDate.month(), initialDate.year());
+    let viewDate = initialDate || moment();
+
+    let weeks = getWeeks(viewDate.month(), viewDate.year());
+    const [m, y] = getNextMonthYear(viewDate.month(), viewDate.year());
     let nextWeeks = getWeeks(m, y);
 
     let reducerState = {
         ...INITIAL_STATE,
         startDate: initialDate,
         endDate: range ? initialDate : null,
-        currentMonthView: initialDate.month(),
-        currentYearView: initialDate.year(),
-        monthLabel: moment().month(initialDate.month()).format('MMMM'),
-        yearLabel: moment().year(initialDate.year()).format('YYYY'),
+        currentMonthView: viewDate.month(),
+        currentYearView: viewDate.year(),
+        monthLabel: moment().month(viewDate.month()).format('MMMM'),
+        yearLabel: moment().year(viewDate.year()).format('YYYY'),
         monthLabelNext: moment().month(m).format('MMMM'),
         yearLabelNext: moment().year(y).format('YYYY'),
         daysShort,
